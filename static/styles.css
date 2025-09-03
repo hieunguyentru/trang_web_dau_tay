@@ -1,0 +1,36 @@
+nav ul {
+    /* Bỏ dấu chấm dầu dòng */
+    list-style: none;                
+    padding: 0;
+    margin: 0;
+    /* Nằm ngang */
+    display: flex;
+    /* Khoảng cách giữa các mục */
+    gap: 20px;
+}
+
+nav a {
+    /* Bỏ gạch chân */
+    text-decoration: none;
+    color: white;
+    background: teal;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: darkcyan;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #f0f0f0;
+}
+
+header form {
+    margin-top: 0px;
+}
+
